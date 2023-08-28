@@ -1,0 +1,104 @@
+:root {
+    --theme-color: #1e90ff;
+  }
+
+
+#mu-hero{
+    background-color: #ffffff;
+}
+
+.mu-hero-left h1 {
+    color: #444;
+}
+
+.mu-hero-left p {
+    color: #444;
+}
+
+#mu-header li a {
+    color: #444 !important;
+}
+
+#mu-header .navbar-default .mu-menu li a::after {
+    background-color: transparent;
+}
+
+#mu-header .navbar-default .mu-menu li.active a::after {
+    background-color: #444;
+}
+
+#mu-header.mu-fixed-nav li a {
+    color: #ffffff !important;
+}
+
+#mu-header.mu-fixed-nav .navbar-default .mu-menu li a::after {
+    background-color: transparent;
+}
+
+#mu-header.mu-fixed-nav .navbar-default .mu-menu li.active a::after {
+    background-color: #ffffff;
+}
+
+.navbar-default .navbar-brand {
+    color: #444;
+}
+
+.mu-hero-left .mu-primary-btn {
+    background-color: var(--theme-color);
+    color: #ffffff;
+}
+
+.mu-service-icon-box, .mu-team-social-info a:hover, .mu-team-social-info a:focus, .mu-testimonial-slide .slick-dots li button::before, .mu-testimonial-slide .slick-dots li.slick-active button::before, .mu-footer-area a:hover, .mu-footer-area a:focus, .mu-hero-left .mu-primary-btn, .mu-hero-left .mu-primary-btn:hover, .mu-hero-left .mu-primary-btn:focus, .mu-single-counter i {
+    color: #ffffff;
+}
+
+.counter-value{
+    color: var(--theme-color);
+}
+
+.cover-image{
+    max-height: 450px;
+}
+
+.mu-hero-right {
+    display: inline-flex;
+    float: left;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.mu-hero-left {
+    display: inline-flex;
+    float: left;
+    width: 100%;
+    height: 400px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.mu-testimonial-slide .slick-dots li button:hover, .mu-testimonial-slide .slick-dots li button:focus, .mu-testimonial-slide .slick-dots li.slick-active button, .mu-header-dot, .mu-author-social a, .mu-pricing-content .mu-popular-price-tag, #mu-video-review:before {
+    background-color: var(--theme-color);
+}
+
+.mu-send-msg-btn:hover, .mu-send-msg-btn:focus, .mu-book-overview-icon-box, .mu-social-media a, .mu-social-media a:hover, .mu-social-media a:focus, .mu-order-btn:hover, .mu-order-btn:focus {
+    border: 1px solid var(--theme-color);
+    color: var(--theme-color);
+}
+
+.mu-send-msg-btn {
+    border: 1px solid var(--theme-color);
+    background-color: var(--theme-color);
+}
+
+.mu-contact-form .form-control:focus,
+.mu-testimonial-slide .slick-dots li button:hover,
+.mu-testimonial-slide .slick-dots li button:focus,
+.mu-testimonial-slide .slick-dots li.slick-active button{
+	border: 1px solid var(--theme-color);    
+}
+
+.mu-book-overview-area {
+    padding: 70px 0 100px 0;
+}
